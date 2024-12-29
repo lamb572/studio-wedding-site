@@ -4,6 +4,17 @@ export const brideAndGroom = defineType({
   type: 'document',
   name: 'brideAndGroom',
   title: 'Bride and Groom Details',
+  preview: {
+    select: {
+      brideName: 'brideName',
+      groomName: 'groomName',
+    },
+    prepare: ({brideName, groomName}) => {
+      return {
+        title: `${brideName} and ${groomName}`,
+      }
+    },
+  },
   fields: [
     {
       type: 'string',

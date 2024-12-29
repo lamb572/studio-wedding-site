@@ -4,6 +4,11 @@ export const saveDate = defineType({
   name: 'saveDate',
   title: 'Save Date',
   type: 'document',
+  preview: {
+    select: {
+      title: 'heading.string',
+    },
+  },
   fields: [
     defineField({
       name: 'heading',
