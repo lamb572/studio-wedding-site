@@ -38,7 +38,7 @@ export const stringObjectField = defineField({
       name: 'color',
       title: 'Color',
       type: 'string',
-      initialValue: 'inherit',
+      initialValue: 'primary',
       options: {
         list: [
           {title: 'Primary', value: 'primary'},
