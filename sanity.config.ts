@@ -17,7 +17,7 @@ export default defineConfig({
     presentationTool({
       previewUrl: {
         origin: process.env.SANITY_STUDIO_PREVIEW_ORIGIN,
-        preview: '/',
+        preview: '/save-date',
         previewMode: {
           enable: '/api/draft-mode/enable',
         },
