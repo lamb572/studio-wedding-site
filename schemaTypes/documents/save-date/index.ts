@@ -24,7 +24,7 @@ export const saveDate = defineType({
       name: 'brideAndGroom',
       title: 'Bride and Groom',
       type: 'stringObjectField',
-      initialValue: '${{brideName}} and ${{groomName}}',
+      initialValue: {string: '${{brideName}} and ${{groomName}}'},
       description:
         'string interpolation using bride and groom names Example: "${{brideName}} and ${{groomName}}"',
     }),
