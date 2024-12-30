@@ -23,14 +23,6 @@ export const theme = defineType({
       type: 'object',
       fields: [
         defineField({
-          name: 'mode',
-          title: 'Mode',
-          type: 'string',
-          options: {list: ['light', 'dark']},
-          initialValue: 'light',
-          validation: (Rule) => Rule.required(),
-        }),
-        defineField({
           name: 'common',
           title: 'Common',
           type: 'object',
