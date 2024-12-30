@@ -120,7 +120,7 @@ export type Geopoint = {
 
 export type Slug = {
   _type: 'slug'
-  current?: string
+  current: string
   source?: string
 }
 
@@ -139,45 +139,45 @@ export type Theme = {
   _createdAt: string
   _updatedAt: string
   _rev: string
-  name?: string
+  name: string
   palette?: {
-    mode?: 'light' | 'dark'
+    mode: 'light' | 'dark'
     common?: {
-      black?: HexColorPicker
-      white?: HexColorPicker
+      black: HexColorPicker
+      white: HexColorPicker
     }
     primary?: {
-      main?: HexColorPicker
+      main: HexColorPicker
       light?: HexColorPicker
       dark?: HexColorPicker
       contrastText?: HexColorPicker
     }
     secondary?: {
-      main?: HexColorPicker
+      main: HexColorPicker
       light?: HexColorPicker
       dark?: HexColorPicker
       contrastText?: HexColorPicker
     }
     error?: {
-      main?: HexColorPicker
+      main: HexColorPicker
       light?: HexColorPicker
       dark?: HexColorPicker
       contrastText?: HexColorPicker
     }
     warning?: {
-      main?: HexColorPicker
+      main: HexColorPicker
       light?: HexColorPicker
       dark?: HexColorPicker
       contrastText?: HexColorPicker
     }
     info?: {
-      main?: HexColorPicker
+      main: HexColorPicker
       light?: HexColorPicker
       dark?: HexColorPicker
       contrastText?: HexColorPicker
     }
     success?: {
-      main?: HexColorPicker
+      main: HexColorPicker
       light?: HexColorPicker
       dark?: HexColorPicker
       contrastText?: HexColorPicker

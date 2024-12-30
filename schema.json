@@ -643,7 +643,7 @@
           "value": {
             "type": "string"
           },
-          "optional": true
+          "optional": false
         },
         "source": {
           "type": "objectAttribute",
@@ -739,7 +739,7 @@
         "value": {
           "type": "string"
         },
-        "optional": true
+        "optional": false
       },
       "palette": {
         "type": "objectAttribute",
@@ -761,7 +761,7 @@
                   }
                 ]
               },
-              "optional": true
+              "optional": false
             },
             "common": {
               "type": "objectAttribute",
@@ -774,7 +774,7 @@
                       "type": "inline",
                       "name": "hexColorPicker"
                     },
-                    "optional": true
+                    "optional": false
                   },
                   "white": {
                     "type": "objectAttribute",
@@ -782,7 +782,7 @@
                       "type": "inline",
                       "name": "hexColorPicker"
                     },
-                    "optional": true
+                    "optional": false
                   }
                 }
               },
@@ -799,7 +799,7 @@
                       "type": "inline",
                       "name": "hexColorPicker"
                     },
-                    "optional": true
+                    "optional": false
                   },
                   "light": {
                     "type": "objectAttribute",
@@ -840,7 +840,7 @@
                       "type": "inline",
                       "name": "hexColorPicker"
                     },
-                    "optional": true
+                    "optional": false
                   },
                   "light": {
                     "type": "objectAttribute",
@@ -881,7 +881,7 @@
                       "type": "inline",
                       "name": "hexColorPicker"
                     },
-                    "optional": true
+                    "optional": false
                   },
                   "light": {
                     "type": "objectAttribute",
@@ -922,7 +922,7 @@
                       "type": "inline",
                       "name": "hexColorPicker"
                     },
-                    "optional": true
+                    "optional": false
                   },
                   "light": {
                     "type": "objectAttribute",
@@ -963,7 +963,7 @@
                       "type": "inline",
                       "name": "hexColorPicker"
                     },
-                    "optional": true
+                    "optional": false
                   },
                   "light": {
                     "type": "objectAttribute",
@@ -1004,7 +1004,7 @@
                       "type": "inline",
                       "name": "hexColorPicker"
                     },
-                    "optional": true
+                    "optional": false
                   },
                   "light": {
                     "type": "objectAttribute",
