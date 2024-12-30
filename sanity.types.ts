@@ -141,7 +141,6 @@ export type Theme = {
   _rev: string
   name: string
   palette?: {
-    mode: 'light' | 'dark'
     common?: {
       black: HexColorPicker
       white: HexColorPicker
