@@ -38,5 +38,10 @@ export const saveDate = defineType({
       title: 'Extra Information',
       type: 'stringObjectField',
     }),
+    defineField({
+      name: 'backgroundImage',
+      title: 'Background Image',
+      type: 'image',
+    }),
   ],
 })
