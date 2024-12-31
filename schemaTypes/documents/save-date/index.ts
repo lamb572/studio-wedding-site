@@ -16,22 +16,16 @@ export const saveDate = defineType({
       type: 'stringObjectField',
     }),
     defineField({
-      name: 'subheading',
-      title: 'SubHeading',
-      type: 'stringObjectField',
-    }),
-    defineField({
-      name: 'brideAndGroom',
-      title: 'Bride and Groom',
-      type: 'stringObjectField',
-      initialValue: {string: '${{brideName}} and ${{groomName}}'},
+      name: 'context',
+      type: 'array',
+      title: 'Context',
       description:
         'string interpolation using bride and groom names Example: "${{brideName}} and ${{groomName}}"',
-    }),
-    defineField({
-      name: 'date',
-      title: 'Date',
-      type: 'stringObjectField',
+      of: [
+        {
+          type: 'block',
+        },
+      ],
     }),
     defineField({
       name: 'extraInfo',
