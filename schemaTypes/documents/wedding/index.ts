@@ -1,9 +1,9 @@
 import {defineType} from 'sanity'
 
-export const brideAndGroom = defineType({
+export const wedding = defineType({
   type: 'document',
-  name: 'brideAndGroom',
-  title: 'Bride and Groom Details',
+  name: 'wedding',
+  title: 'Wedding Details',
   preview: {
     select: {
       brideName: 'brideName',

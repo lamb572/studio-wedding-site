@@ -1,4 +1,5 @@
 export * from './save-date'
-export * from './bride-groom'
+export * from './wedding'
 export * from './theme'
 export * from './home'
+export * from './settings'
