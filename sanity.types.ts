@@ -169,6 +169,7 @@ export type Wedding = {
   _createdAt: string
   _updatedAt: string
   _rev: string
+  date?: string
   brideName?: string
   groomName?: string
   brideImage?: string

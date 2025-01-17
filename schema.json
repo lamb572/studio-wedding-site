@@ -916,6 +916,13 @@
           "type": "string"
         }
       },
+      "date": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
+      },
       "brideName": {
         "type": "objectAttribute",
         "value": {

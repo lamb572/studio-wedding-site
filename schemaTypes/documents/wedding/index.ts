@@ -17,6 +17,14 @@ export const wedding = defineType({
   },
   fields: [
     {
+      name: 'date',
+      title: 'Date',
+      type: 'date',
+      options: {
+        dateFormat: 'DD-MM-YYYY',
+      },
+    },
+    {
       type: 'string',
       name: 'brideName',
       title: 'Bride Name',
