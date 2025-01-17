@@ -3,6 +3,7 @@ import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 import {presentationTool} from 'sanity/presentation'
+import {iconPicker} from 'sanity-plugin-icon-picker'
 
 export default defineConfig({
   name: 'default',
@@ -12,6 +13,7 @@ export default defineConfig({
   dataset: 'production',
 
   plugins: [
+    iconPicker(),
     structureTool(),
     visionTool(),
     presentationTool({

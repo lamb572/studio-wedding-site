@@ -1,6 +1,6 @@
 import {defineField, defineType} from 'sanity'
 
-export const faq = defineType({
+export const settings = defineType({
   name: 'settings',
   title: 'Site Settings',
   type: 'document',
@@ -12,9 +12,21 @@ export const faq = defineType({
 
   fields: [
     defineField({
-      name: 'backgroundImage',
-      title: 'Background Image',
-      type: 'image',
+      name: 'background',
+      title: 'Background',
+      type: 'object',
+      fields: [
+        defineField({
+          name: 'image',
+          title: 'Image',
+          type: 'image',
+        }),
+        defineField({
+          name: 'color',
+          title: 'Color',
+          type: 'hexColorPicker',
+        }),
+      ],
     }),
     defineField({
       name: 'pageNames',

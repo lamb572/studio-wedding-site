@@ -6,7 +6,7 @@ export const faq = defineType({
   type: 'document',
   preview: {
     select: {
-      title: 'heading.string',
+      title: 'question',
     },
   },
   fields: [
@@ -25,8 +25,9 @@ export const faq = defineType({
       title: 'FAQ icon',
       type: 'iconPicker',
       options: {
-        providers: ['mdi'],
+        // providers: ['mdi', 'sa', 'fi', 'hi'],
         outputFormat: 'react',
+        storeSvg: true,
       },
     }),
   ],
