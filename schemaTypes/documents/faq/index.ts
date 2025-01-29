@@ -11,6 +11,11 @@ export const faq = defineType({
   },
   fields: [
     defineField({
+      name: 'position',
+      title: 'Position',
+      type: 'number',
+    }),
+    defineField({
       name: 'question',
       title: 'Question',
       type: 'string',
