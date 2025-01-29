@@ -75,5 +75,10 @@ export const home = defineType({
         },
       ],
     }),
+    defineField({
+      name: 'image',
+      type: 'image',
+      title: 'Image',
+    }),
   ],
 })
