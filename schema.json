@@ -807,6 +807,23 @@
           "type": "string"
         }
       },
+      "card": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "object",
+          "attributes": {
+            "backgroundColor": {
+              "type": "objectAttribute",
+              "value": {
+                "type": "inline",
+                "name": "hexColorPicker"
+              },
+              "optional": true
+            }
+          }
+        },
+        "optional": true
+      },
       "background": {
         "type": "objectAttribute",
         "value": {

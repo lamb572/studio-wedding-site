@@ -12,6 +12,18 @@ export const settings = defineType({
 
   fields: [
     defineField({
+      name: 'card',
+      title: 'Card',
+      type: 'object',
+      fields: [
+        defineField({
+          name: 'backgroundColor',
+          title: 'Background Color',
+          type: 'hexColorPicker',
+        }),
+      ],
+    }),
+    defineField({
       name: 'background',
       title: 'Background',
       type: 'object',
