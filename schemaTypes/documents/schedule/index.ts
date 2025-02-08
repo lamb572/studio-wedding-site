@@ -17,6 +17,11 @@ export const schedule = defineType({
       initialValue: '2025-10-25T11:00:00Z',
     }),
     defineField({
+      name: 'ceremony',
+      title: 'Ceremony',
+      type: 'boolean',
+    }),
+    defineField({
       name: 'heading',
       title: 'Heading',
       type: 'string',
