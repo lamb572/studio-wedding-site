@@ -404,6 +404,13 @@
         },
         "optional": true
       },
+      "ceremony": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "boolean"
+        },
+        "optional": true
+      },
       "heading": {
         "type": "objectAttribute",
         "value": {
