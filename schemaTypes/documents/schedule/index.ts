@@ -7,6 +7,7 @@ export const schedule = defineType({
   preview: {
     select: {
       title: 'heading',
+      subtitle: 'time',
     },
   },
   fields: [
@@ -20,6 +21,7 @@ export const schedule = defineType({
       name: 'ceremony',
       title: 'Ceremony',
       type: 'boolean',
+      initialValue: false,
     }),
     defineField({
       name: 'heading',
@@ -28,8 +30,41 @@ export const schedule = defineType({
     }),
     defineField({
       name: 'details',
+      type: 'array',
       title: 'Details',
-      type: 'text',
+      of: [
+        {
+          type: 'block',
+
+          marks: {
+            annotations: [
+              {
+                type: 'object',
+                name: 'color',
+                fields: [
+                  {
+                    type: 'string',
+                    name: 'color',
+                    options: {
+                      list: [
+                        'textSecondary',
+                        'primary',
+                        'secondary',
+                        'success',
+                        'error',
+                        'info',
+                        'warning',
+                        'textPrimary',
+                        'textDisabled',
+                      ],
+                    },
+                  },
+                ],
+              },
+            ],
+          },
+        },
+      ],
     }),
     defineField({
       name: 'icon',
