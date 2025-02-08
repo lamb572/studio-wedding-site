@@ -29,7 +29,7 @@ export const schedule = defineType({
     defineField({
       name: 'details',
       title: 'Details',
-      type: 'string',
+      type: 'text',
     }),
     defineField({
       name: 'icon',
