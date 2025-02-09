@@ -1,5 +1,4 @@
 import {defineField, defineType} from 'sanity'
-import {ColorPicker} from '../../customComponents'
 
 export const theme = defineType({
   name: 'theme',
