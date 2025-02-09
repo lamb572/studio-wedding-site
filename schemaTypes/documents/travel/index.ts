@@ -1,7 +1,7 @@
 import {defineField, defineType} from 'sanity'
 
 export const travel = defineType({
-  name: 'faa',
+  name: 'travelAccommodation',
   title: 'Travel & Accommodation',
   type: 'document',
   preview: {

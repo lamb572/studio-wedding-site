@@ -449,7 +449,7 @@
     }
   },
   {
-    "name": "faa",
+    "name": "travelAccommodation",
     "type": "document",
     "attributes": {
       "_id": {
@@ -462,7 +462,7 @@
         "type": "objectAttribute",
         "value": {
           "type": "string",
-          "value": "faa"
+          "value": "travelAccommodation"
         }
       },
       "_createdAt": {

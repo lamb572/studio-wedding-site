@@ -91,9 +91,9 @@ export type Wedding = {
   groomDescription?: string
 }
 
-export type Faa = {
+export type TravelAccommodation = {
   _id: string
-  _type: 'faa'
+  _type: 'travelAccommodation'
   _createdAt: string
   _updatedAt: string
   _rev: string
@@ -483,7 +483,7 @@ export type AllSanitySchemaTypes =
   | Slug
   | HexColorPicker
   | Wedding
-  | Faa
+  | TravelAccommodation
   | Theme
   | Settings
   | Schedule
