@@ -57,5 +57,10 @@ export const registry = defineType({
       title: 'QR Code',
       type: 'image',
     }),
+    defineField({
+      name: 'registryLink',
+      title: 'Registry Link',
+      type: 'url',
+    }),
   ],
 })

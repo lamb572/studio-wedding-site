@@ -2471,6 +2471,13 @@
           }
         },
         "optional": true
+      },
+      "registryLink": {
+        "type": "objectAttribute",
+        "value": {
+          "type": "string"
+        },
+        "optional": true
       }
     }
   },

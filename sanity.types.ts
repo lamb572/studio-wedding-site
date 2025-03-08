@@ -392,6 +392,7 @@ export type Registry = {
     crop?: SanityImageCrop
     _type: 'image'
   }
+  registryLink?: string
 }
 
 export type Home = {
