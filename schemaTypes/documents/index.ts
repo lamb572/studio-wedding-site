@@ -1,5 +1,6 @@
 export * from './faq'
 export * from './home'
+export * from './registry'
 export * from './save-date'
 export * from './schedule'
 export * from './settings'
