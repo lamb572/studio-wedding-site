@@ -17,15 +17,10 @@ export const saveDate = defineType({
     }),
     defineField({
       name: 'context',
-      type: 'array',
+      type: 'textBlock',
       title: 'Context',
       description:
         'string interpolation using bride and groom names Example: "${{brideName}} and ${{groomName}}"',
-      of: [
-        {
-          type: 'block',
-        },
-      ],
     }),
     defineField({
       name: 'extraInfo',

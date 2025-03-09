@@ -17,40 +17,8 @@ export const travel = defineType({
     }),
     defineField({
       name: 'travelDetails',
-      type: 'array',
+      type: 'textBlock',
       title: 'Travel Details',
-      of: [
-        {
-          type: 'block',
-          marks: {
-            annotations: [
-              {
-                type: 'object',
-                name: 'color',
-                fields: [
-                  {
-                    type: 'string',
-                    name: 'color',
-                    options: {
-                      list: [
-                        'textSecondary',
-                        'primary',
-                        'secondary',
-                        'success',
-                        'error',
-                        'info',
-                        'warning',
-                        'textPrimary',
-                        'textDisabled',
-                      ],
-                    },
-                  },
-                ],
-              },
-            ],
-          },
-        },
-      ],
     }),
     defineField({
       name: 'accommodationHeading',
@@ -59,40 +27,8 @@ export const travel = defineType({
     }),
     defineField({
       name: 'accommodationDetails',
-      type: 'array',
+      type: 'textBlock',
       title: 'Accommodation Details',
-      of: [
-        {
-          type: 'block',
-          marks: {
-            annotations: [
-              {
-                type: 'object',
-                name: 'color',
-                fields: [
-                  {
-                    type: 'string',
-                    name: 'color',
-                    options: {
-                      list: [
-                        'textSecondary',
-                        'primary',
-                        'secondary',
-                        'success',
-                        'error',
-                        'info',
-                        'warning',
-                        'textPrimary',
-                        'textDisabled',
-                      ],
-                    },
-                  },
-                ],
-              },
-            ],
-          },
-        },
-      ],
     }),
   ],
 })

@@ -38,42 +38,9 @@ export const home = defineType({
     }),
     defineField({
       name: 'location',
-      type: 'array',
+      type: 'textBlock',
       title: 'Location',
       description: 'string interpolation using: ${{date}}.',
-      of: [
-        {
-          type: 'block',
-
-          marks: {
-            annotations: [
-              {
-                type: 'object',
-                name: 'color',
-                fields: [
-                  {
-                    type: 'string',
-                    name: 'color',
-                    options: {
-                      list: [
-                        'textSecondary',
-                        'primary',
-                        'secondary',
-                        'success',
-                        'error',
-                        'info',
-                        'warning',
-                        'textPrimary',
-                        'textDisabled',
-                      ],
-                    },
-                  },
-                ],
-              },
-            ],
-          },
-        },
-      ],
     }),
     defineField({
       name: 'image',

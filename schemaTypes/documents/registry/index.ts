@@ -17,40 +17,8 @@ export const registry = defineType({
     }),
     defineField({
       name: 'registryDetails',
-      type: 'array',
+      type: 'textBlock',
       title: 'Registry Details',
-      of: [
-        {
-          type: 'block',
-          marks: {
-            annotations: [
-              {
-                type: 'object',
-                name: 'color',
-                fields: [
-                  {
-                    type: 'string',
-                    name: 'color',
-                    options: {
-                      list: [
-                        'textSecondary',
-                        'primary',
-                        'secondary',
-                        'success',
-                        'error',
-                        'info',
-                        'warning',
-                        'textPrimary',
-                        'textDisabled',
-                      ],
-                    },
-                  },
-                ],
-              },
-            ],
-          },
-        },
-      ],
     }),
     defineField({
       name: 'qrCode',
