@@ -83,5 +83,22 @@ export const settings = defineType({
         }),
       ],
     }),
+    defineField({
+      name: 'images',
+      title: 'Images',
+      type: 'object',
+      fields: [
+        defineField({
+          name: 'ogImage',
+          title: 'Open Graph Image',
+          type: 'image',
+        }),
+        defineField({
+          name: 'thankYou',
+          title: 'Thank You',
+          type: 'image',
+        }),
+      ],
+    }),
   ],
 })
